@@ -8,7 +8,13 @@ namespace MerchanServ.Model
         [PrimaryKey]
         public int ID { get; set; }
 
-        public int time { get; set; }
+        public DateTime Date { get; set; }
+
+        public int Time { get; set; }
+
+        public string Comment { get; set; }
+
+        public String Status { get; set; }
 
         public Ticket()
         {
