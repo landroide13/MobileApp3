@@ -6,10 +6,11 @@
     <ContentPage.Content>
 
         <StackLayout Margin="50,10" Padding="30,20" Orientation="Vertical">
-            <Button BackgroundColor="Black" TextColor="White"  Text="Get List Merchandisers" />
-            <Button BackgroundColor="Black" TextColor="White"  Text="Create Merchandiser" />
-            <Button BackgroundColor="Black" TextColor="White"  Text="Create Ticket" />
+            <Button BackgroundColor="Black" TextColor="White"  Text="Add Merchandiser" />
+            <Button BackgroundColor="Black" TextColor="White"  Text="Add Store" />
+            <Button BackgroundColor="Black" TextColor="White"  Text="Add Ticket" />
             <Button BackgroundColor="Black" TextColor="White"  Text="List Tickets" />
+            <Button BackgroundColor="Black" TextColor="White"  Text="List Merchandisers" />
         </StackLayout>
         
     </ContentPage.Content>

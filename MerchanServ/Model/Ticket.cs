@@ -19,5 +19,6 @@ namespace MerchanServ.Model
         public Ticket()
         {
         }
+
     }
 }

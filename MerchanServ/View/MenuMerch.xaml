@@ -6,6 +6,7 @@
     <ContentPage.Content>
 
         <StackLayout Margin="50,10" Padding="30,20" Orientation="Vertical">
+            <ListView></ListView>
             <Button BackgroundColor="Black" TextColor="White"  Text="Get List Tickets" />
         </StackLayout>
         
