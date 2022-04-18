@@ -32,6 +32,16 @@ namespace MerchanServ.View
             await Navigation.PushAsync(new ListTickets());
         }
 
+        async void Button_UpdateStore(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new UpdateStore());
+        }
+
+        async void Button_GetStore(System.Object sender, System.EventArgs e)
+        {
+            await Navigation.PushAsync(new GetStore());
+        }
+
         async void Button_ListMerc(System.Object sender, System.EventArgs e)
         {
             await Navigation.PushAsync(new ListMerc());

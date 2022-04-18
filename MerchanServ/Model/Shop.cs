@@ -12,6 +12,11 @@ namespace MerchanServ.Model
 
         public string ShopAddress { get; set; }
 
+        public override string ToString()
+        {
+            return this.ShopName + " " + this.ShopAddress;
+        }
+
 
         public Shop()
         {

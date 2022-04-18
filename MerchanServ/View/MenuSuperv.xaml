@@ -10,6 +10,8 @@
             <Button Clicked="Button_AddStore" BackgroundColor="Black" TextColor="White"  Text="Add Store" />
             <Button Clicked="Button_AddTicket" BackgroundColor="Black" TextColor="White"  Text="Add Ticket" />
             <Button Clicked="Button_ListTicket" BackgroundColor="Black" TextColor="White"  Text="List Tickets" />
+            <Button Clicked="Button_UpdateStore" BackgroundColor="Black" TextColor="White"  Text="Update Stores" />
+            <Button Clicked="Button_GetStore" BackgroundColor="Black" TextColor="White"  Text="Get Store" />
             <Button Clicked="Button_ListMerc" BackgroundColor="Black" TextColor="White"  Text="List Merchandisers" />
         </StackLayout>
         
