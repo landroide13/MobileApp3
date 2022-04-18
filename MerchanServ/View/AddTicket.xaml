@@ -4,6 +4,15 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MerchanServ.View.AddTicket">
     <ContentPage.Content>
+
+        <StackLayout>
+
+            <Entry Keyboard="Text" Placeholder="Ticket Name" x:Name="ticName" ></Entry>
+            <Entry Keyboard="Text" Placeholder="Ticket Address" x:Name="ticAddress" ></Entry>
+            <DatePicker x:Name="ticDate" />
+            <Button Text="Add Ticket" Clicked="Button_AddTic"/>
+
+        </StackLayout>
         
     </ContentPage.Content>
 </ContentPage>
