@@ -10,6 +10,8 @@ namespace MerchanServ.Model
 
         public string ShopName { get; set; }
 
+        public string ShopAddress { get; set; }
+
 
         public Shop()
         {

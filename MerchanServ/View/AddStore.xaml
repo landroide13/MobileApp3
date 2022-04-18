@@ -4,6 +4,14 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="MerchanServ.View.AddStore">
     <ContentPage.Content>
+
+        <StackLayout>
+
+            <Entry Keyboard="Text" Placeholder="Store Name" x:Name="stoName" ></Entry>
+            <Entry Keyboard="Text" Placeholder="Store Address" x:Name="stoAddress" ></Entry>
+            <Button Text="Add Store" Clicked="Button_AddStore"/>
+
+        </StackLayout>
         
     </ContentPage.Content>
 </ContentPage>
