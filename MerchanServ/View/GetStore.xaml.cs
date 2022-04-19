@@ -10,7 +10,6 @@ namespace MerchanServ.View
     {
         string dbPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal), "MerchanServDB.db3");
 
-
         public GetStore()
         {
             InitializeComponent();

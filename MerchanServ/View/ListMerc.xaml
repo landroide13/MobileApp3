@@ -10,7 +10,16 @@
          <StackLayout>
 
                 <ListView x:Name="listMercs">
-                    
+                    <ListView.ItemTemplate>  
+                       <DataTemplate>  
+                           <ViewCell>  
+                               <StackLayout Orientation="Horizontal">
+                                   <Label Text="{Binding}" />
+                                   <button BangroundColor="Darkred" TextColor="White"  Text="Delete" ></button>
+                               </StackLayout>  
+                           </ViewCell>  
+                       </DataTemplate>  
+                    </ListView.ItemTemplate>
                 </ListView>
 
             </StackLayout>
