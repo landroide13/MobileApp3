@@ -11,7 +11,9 @@
 
             <StackLayout>
 
-                <ListView x:Name="listTickets"></ListView>
+                <ListView x:Name="listTickets">
+                    
+                </ListView>
 
             </StackLayout>
 
