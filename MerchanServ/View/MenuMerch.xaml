@@ -13,8 +13,8 @@
                        <ViewCell>  
                            <StackLayout Orientation="Horizontal">
                                <Label Text="{Binding}" />
-                               <button text="Delete" ></button>
-                               <button text="Open Ticket"></button>
+                               <button BangroundColor="Darkred" TextColor="White"  Text="Delete" ></button>
+                               <button BangroundColor="Black" TextColor="White" Text="Open Ticket"></button>
                            </StackLayout>  
                        </ViewCell>  
                    </DataTemplate>  

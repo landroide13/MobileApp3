@@ -8,7 +8,18 @@
         <StackLayout>
 
             <Label Text="Companies Registered Here" />
-            <ListView x:Name="listSto"></ListView>
+            <ListView x:Name="listSto">
+                <ListView.ItemTemplate>  
+                   <DataTemplate>  
+                       <ViewCell>  
+                           <StackLayout Orientation="Horizontal">
+                               <Label Text="{Binding}" />
+                               <button BangroundColor="Darkred" TextColor="White"  Text="Delete" ></button>
+                           </StackLayout>  
+                       </ViewCell>  
+                   </DataTemplate>  
+                </ListView.ItemTemplate>
+            </ListView>
 
         </StackLayout>
         

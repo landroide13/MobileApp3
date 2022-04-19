@@ -5,5 +5,14 @@
     x:Class="MerchanServ.View.AddMerchandiser">
     <ContentPage.Content>
         
+        <StackLayout>
+
+            <Entry Keyboard="Text" Placeholder="Name" x:Name="merName" ></Entry>
+            <Entry Keyboard="Text" Placeholder="Phone" x:Name="merPhone" ></Entry>
+            <Button Text="Add Store" Clicked="Button_AddMerc"/>
+
+        </StackLayout>
+        
+        
     </ContentPage.Content>
 </ContentPage>
